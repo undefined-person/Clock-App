@@ -1,5 +1,13 @@
+import { Container, Quotes, LeftContainer } from 'components'
+
 const App = () => {
-  return <div className="App"></div>
+  return (
+    <Container>
+      <LeftContainer>
+        <Quotes />
+      </LeftContainer>
+    </Container>
+  )
 }
 
 export default App
