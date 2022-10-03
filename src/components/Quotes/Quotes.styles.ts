@@ -22,6 +22,14 @@ export const Author = styled.h3`
   margin-top: 13px;
 `
 
-export const Refresh = styled.img`
-  margin-top: 10px;
+export const RefreshButton = styled.button`
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 5px;
+
+  &:hover svg path {
+    transition: all 0.5s ease-in-out;
+    opacity: 1;
+  }
 `
