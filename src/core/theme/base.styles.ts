@@ -15,6 +15,8 @@ export const BaseTheme = createGlobalStyle`
   }
   
   body {
+    position: fixed;
+    width: 100%;
     font-family: 'Inter', sans-serif;
     color: ${theme.colors.white};
     background-color: ${theme.colors.white};
