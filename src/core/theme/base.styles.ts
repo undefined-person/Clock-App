@@ -10,6 +10,10 @@ export const BaseTheme = createGlobalStyle`
     box-sizing: border-box;
   }
   
+  body, html {
+    height: 100%;
+  }
+  
   body {
     font-family: 'Inter', sans-serif;
     color: ${theme.colors.white};
