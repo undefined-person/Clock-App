@@ -14,5 +14,6 @@ export const BaseTheme = createGlobalStyle`
     font-family: 'Inter', sans-serif;
     color: ${theme.colors.white};
     background-color: ${theme.colors.white};
+    overflow: hidden;
   }
 `

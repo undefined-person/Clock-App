@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { quotesAPI } from 'core/services/quotes.service'
+import { quotesAPI } from 'core/services'
 
 import { RefreshIcon } from 'components'
 
